@@ -1,0 +1,11 @@
+# 数据库等配置信息，可自行完善
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/project?useSSL=false&serverTimezone=UTC
+    username: root
+    password: yourpassword
+  jackson:
+    serialization:
+      indent_output: true
+server:
+  port: 8080
